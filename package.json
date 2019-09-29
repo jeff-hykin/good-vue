@@ -1,12 +1,12 @@
 {
     "name": "good-vue",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "private": false,
     "description": "A box of lightweight basic components",
     "main": "dist/index.js",
     "scripts": {
         "build": "npx bili --bundle-node-modules",
-        "publish": "npm run build && npm run publish"
+        "publish": "npm run build && npm publish"
     },
     "repository": {
         "type": "git",

@@ -6,5 +6,6 @@ export default {
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
         Vue.component("v-box", VBox)
+        Vue.component("h-box", HBox)
     },
 }
