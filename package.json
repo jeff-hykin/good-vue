@@ -1,20 +1,30 @@
 {
-  "name": "good-vue",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeff-hykin/good-vue.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeff-hykin/good-vue/issues"
-  },
-  "homepage": "https://github.com/jeff-hykin/good-vue#readme"
+    "name": "good-vue",
+    "version": "1.0.0",
+    "private": false,
+    "description": "A box of lightweight basic components",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "npx bili --bundle-node-modules",
+        "publish": "npm run build && npm run publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeff-hykin/good-vue.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jeff-hykin/good-vue/issues"
+    },
+    "homepage": "https://github.com/jeff-hykin/good-vue#readme",
+    "files": [
+        "dist/*"
+    ],
+    "devDependencies": {
+        "bili": "^4.8.1",
+        "rollup-plugin-vue": "^5.0.1",
+        "vue-template-compiler": "^2.6.10"
+    }
 }
