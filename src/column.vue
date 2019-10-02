@@ -4,7 +4,6 @@
     </div>
 </template>
 <script>
-import easyShadow from './easy-shadow'
 export default {
     props: {
         'align-h': {

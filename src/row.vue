@@ -4,7 +4,6 @@
     </div>
 </template>
 <script>
-import easyShadow from './easy-shadow'
 import component from './common'
 
 export default {
@@ -17,7 +16,7 @@ export default {
         'align-h': {
             type: String,
             validator: (value) => ['left', 'right', 'center',  'space-around', 'space-between', 'space-evenly', 'stretch', 'baseline', 'inherit', 'normal'].includes(value)
-        },
+    
     },
     computed: {
         ...component.computed,
