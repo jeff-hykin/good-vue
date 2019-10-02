@@ -33,6 +33,7 @@ export default {
         alignItemsStyle() {
             let alignment = this.$props.alignH || this.$attrs["align-items"]
             let value = alignment
+            let additionalValues = {}
             if (alignment == 'left') {
                 value = 'flex-start'
                 additionalValues = { 'text-align': 'left' }
