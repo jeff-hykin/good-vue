@@ -4,7 +4,7 @@
     </div>
 </template>
 <script>
-import component from './common'
+import {component} from './common'
 
 export default {
     props: {
@@ -16,7 +16,7 @@ export default {
         'align-h': {
             type: String,
             validator: (value) => ['left', 'right', 'center',  'space-around', 'space-between', 'space-evenly', 'stretch', 'baseline', 'inherit', 'normal'].includes(value)
-    
+        },
     },
     computed: {
         ...component.computed,
