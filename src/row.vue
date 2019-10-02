@@ -23,12 +23,15 @@ export default {
         justifyContentStyle() {
             let arrangement = this.$props.alignH || this.$attrs["justify-content"]
             let value = arrangement
+            let additionalValues = {}
             if (arrangement == 'left') {
                 value = 'flex-start'
+                additionalValues = { 'text-align': 'left' }
             } else if (arrangement == 'right') {
                 value = 'flex-end'
+                additionalValues = { 'text-align': 'right' }
             }
-            return (value != null) && { 'justify-content': value }
+            return (value != null) && { 'justify-content': value, ...additionalValues }
         },
         alignItemsStyle() {
             let alignment = this.$props.alignV || this.$attrs["align-items"]

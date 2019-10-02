@@ -35,10 +35,12 @@ export default {
             let value = alignment
             if (alignment == 'left') {
                 value = 'flex-start'
+                additionalValues = { 'text-align': 'left' }
             } else if (alignment == 'right') {
                 value = 'flex-end'
+                additionalValues = { 'text-align': 'right' }
             }
-            return (value != null) && { 'align-items': value }
+            return (value != null) && { 'align-items': value, ...additionalValues}
         },
     }
 }
