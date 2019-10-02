@@ -1,11 +1,11 @@
-import VBox from "./v-box.vue"
-import HBox from "./h-box.vue"
+import Column from "./column.vue"
+import Row from "./row.vue"
 
 export default {
     install(Vue, options) {
         // Let's register our component globally
         // https://vuejs.org/v2/guide/components-registration.html
-        Vue.component("v-box", VBox)
-        Vue.component("h-box", HBox)
+        Vue.component("column", Column)
+        Vue.component("row", Row)
     },
 }
