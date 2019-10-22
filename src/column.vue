@@ -1,5 +1,5 @@
 <template>
-    <div class="good-column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
+    <div unique-add1e7fe class="good-column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
         <slot></slot>
     </div>
 </template>
@@ -50,7 +50,7 @@ export default {
 .good-column {
     flex-direction: column;
 }
-* {
+[unique-add1e7fe] {
     display: flex;
     flex-direction: column;
     align-items: center;

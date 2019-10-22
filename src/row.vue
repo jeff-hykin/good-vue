@@ -1,5 +1,5 @@
 <template>
-    <div class="good-row" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
+    <div unique-add1e7fa class="good-row" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
         <slot></slot>
     </div>
 </template>
@@ -51,12 +51,13 @@ export default {
     flex-direction: row;
 }
 
-* {
+[unique-add1e7fa] {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap; /* to disable bootstraps global CSS */
     margin: 0; /* to disable bootstraps global CSS */
+    box-sizing: content-box;
 }
 </style>
