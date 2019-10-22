@@ -46,8 +46,8 @@ export default {
     }
 }
 </script>
-<style scoped>
-.good-column {
+<style>
+.good-column[unique-add1e7fe] {
     flex-direction: column;
 }
 [unique-add1e7fe] {
@@ -57,6 +57,5 @@ export default {
     justify-content: center;
     flex-wrap: nowrap; /* to disable bootstraps global CSS */
     margin: 0; /* to disable bootstraps global CSS */
-    box-sizing: content-box;
 }
 </style>

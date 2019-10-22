@@ -47,7 +47,7 @@ export default {
 }
 </script>
 <style scoped>
-.good-row {
+.good-row[unique-add1e7fa] {
     flex-direction: row;
 }
 
@@ -58,6 +58,5 @@ export default {
     align-items: center;
     flex-wrap: nowrap; /* to disable bootstraps global CSS */
     margin: 0; /* to disable bootstraps global CSS */
-    box-sizing: content-box;
 }
 </style>
