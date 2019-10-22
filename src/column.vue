@@ -1,5 +1,5 @@
 <template>
-    <div class="column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
+    <div class="good-column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
         <slot></slot>
     </div>
 </template>
@@ -47,7 +47,7 @@ export default {
 }
 </script>
 <style scoped>
-.column {
+>>> {
     display: flex;
     flex-direction: column;
     align-items: center;

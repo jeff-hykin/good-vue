@@ -1,5 +1,5 @@
 <template>
-    <div class="row" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
+    <div class="good-row" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
         <slot></slot>
     </div>
 </template>
@@ -47,7 +47,7 @@ export default {
 }
 </script>
 <style scoped>
-.row {
+>>> {
     display: flex;
     flex-direction: row;
     justify-content: center;
