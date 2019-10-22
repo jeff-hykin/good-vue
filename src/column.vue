@@ -57,5 +57,6 @@ export default {
     justify-content: center;
     flex-wrap: nowrap; /* to disable bootstraps global CSS */
     margin: 0; /* to disable bootstraps global CSS */
+    box-sizing: content-box;
 }
 </style>
