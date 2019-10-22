@@ -47,7 +47,10 @@ export default {
 }
 </script>
 <style scoped>
->>> {
+.good-column {
+    flex-direction: column;
+}
+* {
     display: flex;
     flex-direction: column;
     align-items: center;

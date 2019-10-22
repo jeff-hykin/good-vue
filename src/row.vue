@@ -47,7 +47,11 @@ export default {
 }
 </script>
 <style scoped>
->>> {
+.good-row {
+    flex-direction: row;
+}
+
+* {
     display: flex;
     flex-direction: row;
     justify-content: center;
