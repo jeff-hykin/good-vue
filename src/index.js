@@ -1,6 +1,8 @@
 import Column from "./column.vue"
 import Row from "./row.vue"
+import { setupGlobalData } from "./utils"
 
+export setupGlobalData
 export default {
     install(Vue, options) {
         // Let's register our component globally
