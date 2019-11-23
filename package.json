@@ -1,6 +1,6 @@
 {
     "name": "good-vue",
-    "version": "1.2.6",
+    "version": "1.2.7",
     "private": false,
     "description": "A box of lightweight basic components",
     "main": "dist/index.js",
