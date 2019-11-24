@@ -46,7 +46,7 @@ export default {
     }
 }
 </script>
-<style scoped>
+<style>
 .good-row[unique-add1e7fa] {
     flex-direction: row;
 }
