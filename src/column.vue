@@ -1,5 +1,5 @@
 <template>
-    <div unique-add1e7fe class="good-column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }">
+    <div unique-add1e7fe class="good-column" :style="{...$attrs, ...justifyContentStyle, ...alignItemsStyle, ...flexWrapStyle, ...shadowStyle }" v-on="this.$listeners">
         <slot></slot>
     </div>
 </template>

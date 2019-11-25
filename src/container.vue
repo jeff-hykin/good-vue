@@ -1,5 +1,5 @@
 <template>
-    <div unique-a23421e7a class="good-container" :style="{ ...shadowStyle, ...$attrs }">
+    <div unique-a23421e7a class="good-container" :style="{ ...shadowStyle, ...$attrs }" v-on="this.$listeners">
         <slot></slot>
     </div>
 </template>
