@@ -8,7 +8,7 @@
         publish: !language/ruby |
             require 'atk_toolbox'
             
-            system "npm run build"
+            system "_ build"
             previous_process_finished_successfully = $?.success?
             if previous_process_finished_successfully
                 system "project sync"
