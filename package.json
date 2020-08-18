@@ -23,11 +23,12 @@
         "dist/*"
     ],
     "devDependencies": {
-        "bili": "^4.8.1",
+        "bili": "^5.0.5",
         "rollup-plugin-vue": "^5.0.1",
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "@babel/plugin-proposal-export-default-from": "^7.7.4"
+        "@babel/plugin-proposal-export-default-from": "^7.7.4",
+        "parcel": "^2.0.0-beta.1"
     }
 }
